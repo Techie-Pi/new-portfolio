@@ -92,7 +92,7 @@ function Project({ title, description, link, image, techStack, type }) {
             <div
                     className="block p-6 md:mx-16 md:my-12 max-w-sm transition-all rounded border shadow-md dark:bg-[#010509] dark:border-gray-800"
             >
-                <a href={link}>
+                <a href={link} rel="noreferrer noreferrer" target="_blank">
                     <img className="rounded-t-lg" src={image} alt={description}/>
                 </a>
                 <div className="p-5">
