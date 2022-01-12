@@ -2,7 +2,7 @@ import React from "react";
 import Link from "../Link";
 
 function TopIntroduction() {
-    const pClassName = "dark:text-amber-50 text-center my-5";
+    const pClassName = "dark:text-amber-50 text-center my-5 tracking-tighter";
 
     return (
             <div>

@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4)), url("background-min.webp") repeat-y center;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4)), /*url("background-min.webp")*/ url("background.png") repeat-y top;
+    background-size: cover;
+    backdrop-filter: blur(2px);
 }
 
 /* Custom Scrollbar */
