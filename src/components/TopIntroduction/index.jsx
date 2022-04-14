@@ -7,7 +7,7 @@ function TopIntroduction() {
     return (
             <div>
                 <p className={pClassName}>
-                    Hi! I am a 15 year old girl that started programming since I can remember.
+                    Hi! I am a 16 year old girl that started programming since I can remember.
                 </p>
                 <p className={pClassName}>
                     Right now I am working on some interesting and innovative projects, you can see some of them at <Link blank={false} href="/projects">Projects</Link>
