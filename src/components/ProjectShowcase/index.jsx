@@ -10,19 +10,19 @@ const projects = [
         type: "collaborator"
     },
     {
-        title: "Dreamer",
-        description: "Another music/general purpose Discord bot with amazing features",
-        link: "https://github.com/KernelFreeze/dreamer",
-        image: "/projects/dreamer.png",
-        techStack: "Rust, Python",
-        type: "collaborator"
-    },
-    {
         title: "Minplay",
         description: "A Minecraft Network",
         link: "https://twitter.com/minplayserver",
         image: "/projects/minplay.jpg",
         type: "collaborator"
+    },
+    {
+        title: "Privalytics",
+        description: "Open source, privacy-friendly and simple analytics",
+        link: "https://github.com/vocalizando/privalytics",
+        image: "https://github.com/Techie-Pi/waffle/raw/main/docs/logo.png",
+        techStack: "Rust",
+        type: "owner"
     },
     {
         title: "EtheryalOS",
@@ -31,38 +31,6 @@ const projects = [
         image: "/projects/etheryalos.jpg",
         techStack: "Rust, WASM",
         type: "collaborator"
-    },
-    {
-        title: "Davinci",
-        description: "A simple and fast image download and caching library for Unity",
-        link: "https://github.com/shamsdev/davinci",
-        image: "/projects/davinci.png",
-        techStack: "C#, Unity",
-        type: "collaborator"
-    },
-    {
-        title: "Waffle",
-        description: "A domain-trust checker",
-        link: "https://github.com/Techie-Pi/waffle",
-        image: "https://github.com/Techie-Pi/waffle/raw/main/docs/logo.png",
-        techStack: "JavaScript",
-        type: "owner"
-    },
-    {
-        title: "SkeleticMobs",
-        description: "My first Minecraft plugin and OSS project. Used to apply at Minplay",
-        link: "https://github.com/Techie-Pi/SkeleticMobs",
-        image: "/projects/skeleticmobs.png",
-        techStack: "Java, Spigot",
-        type: "owner"
-    },
-    {
-        title: "Soundy",
-        description: "A simple and battle-tested sound library",
-        link: "https://github.com/Techie-Pi/soundy",
-        image: "/projects/dreamer.png",
-        techStack: "JavaScript",
-        type: "owner"
     },
     {
         title: "Not Paid Reloaded",
