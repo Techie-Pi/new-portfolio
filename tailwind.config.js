@@ -6,8 +6,8 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            display: ['"IBM Plex Mono"', "Menlo", "monospace"],
-            body: ['"IBM Plex Mono"', "Menlo", "monospace"],
+            display: ['"Jetbrains Mono"', "Menlo", "monospace"],
+            body: ['"Jetbrains Mono"', "Menlo", "monospace"],
         },
     },
     plugins: [],
