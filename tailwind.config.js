@@ -2,13 +2,13 @@ module.exports = {
     darkMode: "class",
     content: [
         "./index.html",
-        "./src/**/*.{jsx,tsx,ts,js}"
+        "./src/**/*.{jsx,tsx,ts,js}",
     ],
     theme: {
         fontFamily: {
-            serif: ['"JetBrains Mono"', "sans-serif"],
-            sans: ['"JetBrains Mono"', "sans-serif"]
-        }
+            display: ['"IBM Plex Mono"', "Menlo", "monospace"],
+            body: ['"IBM Plex Mono"', "Menlo", "monospace"],
+        },
     },
     plugins: [],
 }
