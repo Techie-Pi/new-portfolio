@@ -7,10 +7,10 @@ function Landing() {
     return (
         <div className="flex flex-col justify-center">
             <TopBar/>
-            <div className="mx-auto md:w-[55vw] sm:w-[90vw]">
+            <div className="mx-auto md:w-[50vw] sm:w-[90vw]">
                 <div className="font-display">
                     <p className="text-amber-50 text-center my-5 tracking-tight">
-                        Hi! I am a 15 year old girl that started programming since I can remember.
+                        Hi! I am a 16 year old girl that started programming since I can remember.
                     </p>
                     <p className="text-amber-50 text-center my-5">
                         Right now I am working on some interesting and innovative projects, you can see some of them at <Link blank={false} href="/projects">Projects</Link>
