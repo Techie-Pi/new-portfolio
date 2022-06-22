@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 import Link from "../components/Link";
 import TopBar from "../components/TopBar";
@@ -17,6 +17,17 @@ const randomId = (array) => {
 }
 
 function Landing() {
+    useEffect(() => {
+        const stylesheet = document.createElement("style")
+        stylesheet.id = "no-scrolling-stylesheet"
+        stylesheet.innerHTML = "html { height: 100%; overflow-y: hidden; }"
+        document.head.appendChild(stylesheet)
+
+        return () => {
+            document.getElementById("no-scrolling-stylesheet").remove()
+        }
+    }, [])
+
     return (
         <div id="top" className="flex flex-col justify-center">
             <TopBar/>
