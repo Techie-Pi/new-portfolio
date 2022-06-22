@@ -18,7 +18,7 @@ const randomId = (array) => {
 
 function Landing() {
     return (
-        <div className="flex flex-col justify-center">
+        <div id="top" className="flex flex-col justify-center">
             <TopBar/>
             <div className="mx-auto md:w-[50vw] sm:w-[90vw]">
                 <div className="font-display">
