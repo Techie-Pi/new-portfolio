@@ -1,9 +1,6 @@
 function GamesContainer({ children }) {
     return (
-        <div className="mt-[100vh] flex flex-col">
-            <div className="mb-[200vh] flex">
-                <span className="m-auto text-white text-red-500">&rarr; &rarr; &rarr; &rarr; &rarr; STOP 🛑🤚 &larr; &larr; &larr; &larr; &larr;</span>
-            </div>
+        <div className="mt-[200vh] flex flex-col">
             {children}
         </div>
     )
