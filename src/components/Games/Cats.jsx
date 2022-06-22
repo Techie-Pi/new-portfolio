@@ -16,14 +16,16 @@ function CatsGame() {
 
     return (
         <BaseGame id="cats" title="Cats 😼" description="Try clicking the image!">
-            <img
-                onClick={imgClickHandler}
-                className="hover:cursor-pointer"
-                alt="Funny cat GIF"
-                height={300}
-                width={300}
-                src={catImage}
-            />
+            <div className="w-[100%] flex justify-center">
+                <img
+                        onClick={imgClickHandler}
+                        className="hover:cursor-pointer"
+                        alt="Funny cat GIF"
+                        height={300}
+                        width={300}
+                        src={catImage}
+                />
+            </div>
         </BaseGame>
     )
 }
