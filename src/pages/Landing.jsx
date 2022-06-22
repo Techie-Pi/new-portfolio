@@ -34,13 +34,13 @@ function Landing() {
             <div className="mx-auto md:w-[50vw] sm:w-[90vw]">
                 <div className="font-display">
                     <p className="text-amber-50 text-center my-5 tracking-tight">
-                        Hi! I am a 16 year old girl that started programming since I can remember.
+                        Hi! I am a random 16 year old girl that started programming a long time ago.
                     </p>
                     <p className="text-amber-50 text-center my-5">
                         Right now I am working on some interesting and innovative projects, you can see some of them at <Link blank={false} href="/projects">Projects</Link>.
                     </p>
                     <p className="text-amber-50 text-center my-5">
-                        I love cryptography and cybersecurity. In my free time I like to participate and organize activities like ARGs and similar things.
+                        I love cryptography and cybersecurity. In my free time I like to participate and organize activities like ARGs.
                     </p>
                     <div className="flex justify-center">
                         <button
