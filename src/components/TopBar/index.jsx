@@ -15,7 +15,8 @@ function TopBar() {
                     <Link className="px-4 fa-2x" href="https://twitter.com/Techie_Pi"><FontAwesomeIcon icon={faTwitter}/></Link>
                     <Link className="px-4 fa-2x" href="https://www.github.com/Techie-Pi"><FontAwesomeIcon icon={faGithub}/></Link>
                     <Link className="px-4 mr-8 fa-2x" href="https://www.twitch.tv/TechiePi"><FontAwesomeIcon icon={faTwitch}/></Link>
-                    <Link className="px-8 fa-2x" blank={false} href="/projects">Projects</Link>
+                    <Link className="pl-8 pr-4 fa-2x" blank={false} href="/projects">Projects</Link>
+                    <Link className="px-4 fa-2x" blank={false} href="/contact">Contact</Link>
                 </div>
             </div>
     )
