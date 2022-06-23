@@ -79,7 +79,7 @@ function Project({ title, description, link, image, techStack, stars, type }) {
                             {description}
                         </p>
                         <div className="flex items-center flex-wrap">
-                            <a href={link} className={`text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0`}>
+                            <a rel="noopener noreferrer" target="_blank" href={link} className={`text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0`}>
                                 Read More
                                 <svg
                                         className="w-4 h-4 ml-2"
