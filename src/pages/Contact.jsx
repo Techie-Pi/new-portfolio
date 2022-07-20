@@ -11,9 +11,12 @@ function Contact() {
             </div>
             <Title>Contact</Title>
 
-            <div className="mx-auto md:w-[50vw] sm:w-[90vw]">
-                <p className="text-amber-50 text-center my-5">
-                    You can contact me through: <Link href="mailto:techie@techiepi.dev">e-mail &lt;techie@techiepi.dev&gt;</Link>
+            <div className="mx-auto text-center md:w-[50vw] sm:w-[90vw]">
+                <p className="text-amber-50 block ml-auto my-5">
+                    <ul>
+                        <li>e-mail <Link href="mailto:techie@techiepi.dev">&lt;techie@techiepi.dev&gt;</Link></li>
+                        <li>twitter <Link href="https://twitter.com/Techie_Pi">@Techie_Pi</Link></li>
+                    </ul>
                 </p>
             </div>
         </div>
