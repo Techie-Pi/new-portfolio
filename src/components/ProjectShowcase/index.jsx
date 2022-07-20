@@ -123,7 +123,7 @@ function ProjectShowcase() {
 
     return (
         <div>
-            <div className="flex flex-wrap place-content-between items-center">
+            <div className="md:w-2/3 m-auto flex flex-wrap place-content-between items-center">
                 {projectsRendered}
             </div>
             <div className="dark:text-amber-50 text-center w-[99vw] my-7">
