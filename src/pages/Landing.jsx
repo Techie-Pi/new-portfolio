@@ -40,7 +40,7 @@ function Landing() {
                         Right now I am working on some interesting and innovative projects, you can see some of them at <Link blank={false} href="/projects">Projects</Link>.
                     </p>
                     <p className="text-amber-50 text-center my-5">
-                        I love cryptography and cybersecurity. In my free time I like to participate and organize activities like ARGs.
+                        <Link blank={true} href="//github.com/rust-lang/rust">Rust</Link> is great. I like ARGs and I am a huge fan of <Link blank={true} href="//en.wikipedia.org/wiki/Constructed_language">conlangs</Link>.
                     </p>
                     <div className="flex justify-center">
                         <button
